@@ -1,0 +1,2 @@
+# Fungsi
+def fungsi(
