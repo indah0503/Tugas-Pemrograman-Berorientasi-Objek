@@ -73,7 +73,7 @@ def list_sum(lst):
         s += elem
     
     return s
-print(list_sum(5))
+print(list_sum([5]))
 
 # Bagaimana dengan ini?
 def strange_list_fun(n):
