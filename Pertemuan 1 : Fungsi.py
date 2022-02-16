@@ -128,7 +128,7 @@ def is_a_triangle(a, b, c):
 
 def heron(a, b, c):
     p = (a + b + c) / 2
-    return (p * p (p - a) * (p - b) * (p - c)) ** 0.5
+    return (p * (p - a) * (p - b) * (p - c)) ** 0.5
 
 def area_of_triangle(a, b, c):
     if not is_a_triangle(a, b, c):
